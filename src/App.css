@@ -1,0 +1,29 @@
+.App {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  min-width: 50%;
+  min-height: 300px;
+  background: rgb(239,228,4);
+  background: linear-gradient(90deg, rgba(239,228,4,1) 0%, rgba(239,215,28,1) 23%, rgba(244,242,92,1) 53%, rgba(244,240,116,1) 79%, rgba(249,244,140,1) 100%);
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+  10px 10px 70px rgba(0, 0, 0, 0.25),
+  inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+  inset 5px 5px 20px rgba(255, 255, 255, 0.2),
+  inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+}
+
+.contagem-regressiva {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  gap: 2rem;
+}

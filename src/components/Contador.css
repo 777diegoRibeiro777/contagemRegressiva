@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.counter-number {
+    background-color: rgb(255, 247, 0);
+    color: black;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    font-size: 4rem;
+    font-weight: bold;
+    min-width: 80px;
+    text-align: center;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+    10px 10px 70px rgba(0, 0, 0, 0.25),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+    inset 5px 5px 20px rgba(255, 255, 255, 0.2),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+}
+
+.contagem-regressiva {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 2rem;
+    font-family: 'Sevillana', cursive;
+}
